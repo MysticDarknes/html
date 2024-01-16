@@ -1,10 +1,75 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Shopping</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 10px;
+            background-color: #f4f4f4;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .book {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f4f4f4;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
 <body>
-<h1>HELLO WORLD<h1>
-<h1>welcome<h1>
-<h1>to synnefo<h1>
-<h2> HEllo there </h2>
-<h1>Welcome to jenkins </h1>
-<h1>GET OUT </h1>
+
+    <header>
+        <h1>Book Store</h1>
+    </header>
+
+    <section>
+        <div class="book">
+            <img src="book1.jpg" alt="Book 1">
+            <h2>Book Title 1</h2>
+            <p>Author: Author Name</p>
+            <p>Price: $19.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="book">
+            <img src="book2.jpg" alt="Book 2">
+            <h2>Book Title 2</h2>
+            <p>Author: Author Name</p>
+            <p>Price: $24.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Add more book entries as needed -->
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Book Store. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
+
